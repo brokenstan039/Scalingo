@@ -3,8 +3,8 @@ import os
 class Config(object):
     API_ID = int(os.environ.get("APP_ID", "29653892"))
     API_HASH = os.environ.get("API_HASH", "9a9c203c27ccb3a6d3982ecdab9c54ad")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "5843104040:AAEP98PTUnz7WNRsxS7FVFtksoYosQJpte4")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "5843104040:AAEP98PTUnz7WNRsxS7FVFtksoYosQJpte4")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "") #pastw string session
     MANAGEMENT_MODE = os.environ.get("MANAGEMENT_MODE", None)
     HEROKU_MODE = os.environ.get("HEROKU_MODE", None)
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "F4R_MUSICAL_STAR_BOT")
